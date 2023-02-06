@@ -12,7 +12,8 @@ import LatestPosts from '~/components/blog/LatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
-
+import Card from '~/components/widgets/Card.astro';
+import CarouselWithButtons from '~/components/widgets/CarouselWithButtons.astro';
 const meta = {
   title: SITE.title,
   description: SITE.description,
@@ -173,17 +174,8 @@ const meta = {
     ]}
   />
 
-  <!-- HighlightedPosts Widget ******* -->
 
-  <LatestPosts
-    postIds={[
-      'get-started-website-with-astro-tailwind-css.md',
-      'how-to-customize-astrowind-to-your-brand.md',
-      'useful-resources-to-create-websites.md',
-      'astrowind-template-in-depth.md',
-    ]}
-  />
-
+  <CarouselWithButtons/>
   <!-- FAQs Widget ******************* -->
 
   <FAQs
