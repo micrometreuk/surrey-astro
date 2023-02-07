@@ -32,47 +32,30 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'Contact us',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
+        { text: 'info@electricalsurrey.com', href: 'mailto:info@electricalsurrey.com' },
+        { text: 'Office: 01932 886593 ', href: 'tel:01932 886593' },
+        { text: 'Mobile: 07849 721448 Mobile', href: 'tel:07849 721448 Mobile' },
         { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
       ],
     },
     {
-      title: 'Platform',
+      title: 'Services',
       links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
-      ],
-    },
-    {
-      title: 'Support',
-      links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
+        { text: 'Car Cahrging', href: '#' },
+        { text: 'CCTV and Intruder Alarms ', href: '#' },
+        { text: 'Domestic', href: '#' },
+        { text: 'Commercial', href: '#' },
+        { text: 'External', href: '#' },
       ],
     },
     {
       title: 'Company',
       links: [
         { text: 'About', href: '#' },
-        { text: 'Blog', href: '#' },
-        { text: 'Careers', href: '#' },
-        { text: 'Press', href: '#' },
-        { text: 'Inclusion', href: '#' },
-        { text: 'Social Impact', href: '#' },
-        { text: 'Shop', href: '#' },
+        { text: 'Making Good', href: '#' },
+        { text: 'Business Hours', href: '#' },
       ],
     },
   ],
@@ -81,14 +64,12 @@ export const footerData = {
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-    { ariaLabel: 'Twitter', icon: 'tabler:brand-twitter', href: '#' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
+    { ariaLabel: 'Twitter', icon: 'tabler:brand-twitter', href: '/' },
+    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '/' },
+    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '/' },
   ],
   footNote: `
-    <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>
-    Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/"> onWidget</a> · All rights reserved.
+    <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm "></span>
+    Copyright © <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/">©2023Electricalsurrey Ltd</a>
   `,
 };
