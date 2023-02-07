@@ -1,9 +1,10 @@
 ---
 publishDate: 2023-01-12T00:00:00Z
-title: Get started with AstroWind to create a website using Astro and Tailwind CSS
+title: We have a passion for helping homeowners make the most of cheaper environmentally friendly driving.
 description: Lorem ipsum dolor sit amet
 excerpt: Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur.
-image: ~/assets/images/do-more.jpg
+image: ~/assets/images/colors.jpg
+
 category: Tutorials
 tags:
   - astro
