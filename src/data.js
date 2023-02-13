@@ -8,19 +8,21 @@ export const headerData = {
     },
     {
       text: 'Domestic',
-      href: '# ',
-    },
-    {
-      text: 'Commercial',
-      href: '#',
+      href: '/#domestic ',
     },
     {
       text: 'Car Charging',
-      href: '#',
+      href: '/#car-charging',
     },
+    
+    {
+      text: 'Commercial',
+      href: '/#commercial',
+    },
+    
     {
       text: 'Making Good',
-      href: '#',
+      href: '/#making-good',
     },
     {
       text: 'CCTV and Intruder Alarms',
@@ -43,7 +45,7 @@ export const footerData = {
     {
       title: 'Services',
       links: [
-        { text: 'Car Cahrging', href: '#' },
+        { text: 'Car Charging', href: '#' },
         { text: 'CCTV and Intruder Alarms ', href: '#' },
         { text: 'Domestic', href: '#' },
         { text: 'Commercial', href: '#' },
