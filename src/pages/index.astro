@@ -1,7 +1,6 @@
 ---
 import { SITE } from '~/config.mjs';
 import Layout from '~/layouts/PageLayout.astro';
-
 import Hero from '~/components/widgets/Hero.astro';
 import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
@@ -13,6 +12,7 @@ import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Card from '~/components/widgets/Card.astro';
+
 const meta = {
   title: SITE.title,
   description: SITE.description,
@@ -22,6 +22,9 @@ const meta = {
 
 <Layout {meta}>
   <!-- Hero Widget ******************* -->
+
+
+
 
   <Hero
     image={{ src: import('~/assets/images/logo.webp'), alt: 'AstroWind Hero Image' }}
