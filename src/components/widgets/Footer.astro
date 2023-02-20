@@ -94,11 +94,15 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
       <div class="text-sm mr-4 dark:text-slate-400">
         <Fragment set:html={footNote} />
       </div>
-      <div class="toast toast-end">
-        <div class="alert alert-success">
+      <div class="fixed bottom-0 right-0">
+        <div class="max-w-xs  border rounded-md shadow-lg bg-green-400 dark:bg-gray-800 dark:border-gray-700" role="alert">
+          <div class="p-2 sm:p-4">
+            <h3 class="text-xl md:text-xl font-bold leading-tighter tracking-tighter  font-heading text-xs text-gray-800 sm:text-base dark:text-white">
           <a href="tel:01932 886593">
                 How can we help ?
           </a>
+            </h3>
+          </div>
         </div>
       </div>
     </div>

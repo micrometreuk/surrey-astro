@@ -39,7 +39,6 @@ export const footerData = {
         { text: 'info@electricalsurrey.com', href: 'mailto:info@electricalsurrey.com' },
         { text: 'Office: 01932 886593 ', href: 'tel:01932 886593' },
         { text: 'Mobile: 07849 721448 Mobile', href: 'tel:07849 721448 Mobile' },
-        { text: 'Enterprise', href: '#' },
       ],
     },
     {
