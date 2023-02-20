@@ -45,7 +45,7 @@ export const footerData = {
       title: 'Services',
       links: [
         { text: 'Car Charging', href: '#' },
-        { text: 'CCTV and Intruder Alarms ', href: '#' },
+        { text: 'CCTV and Intruder Alarms ', href: '/cctv' },
         { text: 'Domestic', href: '#' },
         { text: 'Commercial', href: '#' },
         { text: 'External', href: '#' },
@@ -61,7 +61,6 @@ export const footerData = {
     },
   ],
   secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [
@@ -71,6 +70,6 @@ export const footerData = {
   ],
   footNote: `
     <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm "></span>
-    Copyright © <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/">©2023Electricalsurrey Ltd</a>
+    Copyright © <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://electricalsurrey.com/">©2023Electricalsurrey Ltd</a>
   `,
 };

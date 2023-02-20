@@ -20,7 +20,7 @@ const Navbar3 = () => {
           <a href="/#domestic" className="mr-8 hover:text-indigo-500">Domestic</a>
           <a href="/#car-charging" className="mr-8 hover:text-indigo-500">Car Charging</a>
           <a href="/#commercial" className="mr-8 hover:text-indigo-500">Comercial</a>
-          <a href="/" className="mr-8 hover:text-indigo-500">CCTV and Intruder Alarms </a>
+          <a href="/cctv" className="mr-8 hover:text-indigo-500">CCTV and Intruder Alarms </a>
           <a href="/#making-good" className="mr-8 hover:text-indigo-500">Making Good</a>
           <a href="#contact" className="mr-8 hover:text-indigo-500">Contact</a>
         </nav>
