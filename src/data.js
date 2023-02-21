@@ -44,18 +44,18 @@ export const footerData = {
     {
       title: 'Services',
       links: [
-        { text: 'Car Charging', href: '#' },
+        { text: 'Car Charging', href: '/#car-charging' },
         { text: 'CCTV and Intruder Alarms ', href: '/cctv' },
-        { text: 'Domestic', href: '#' },
-        { text: 'Commercial', href: '#' },
-        { text: 'External', href: '#' },
+        { text: 'Domestic', href: '/#domestic' },
+        { text: 'Commercial', href: '/#commercial' },
+        { text: 'External', href: '/#external' },
       ],
     },
     {
       title: 'Company',
       links: [
         { text: 'About', href: '#' },
-        { text: 'Making Good', href: '#' },
+        { text: 'Making Good', href: '/#making-good' },
         { text: 'Business Hours', href: '#' },
       ],
     },
