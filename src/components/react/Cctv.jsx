@@ -32,9 +32,9 @@ const Cctv = () => {
 
 
         {/* :MAIN */}
-        <div className=" dark:bg-gray-800 dark:text-slate-200 order-first md:order-last relative flex bg-gray-100">
+        <div className=" dark:bg-gray-800 dark:text-slate-200 order-first md:order-last relative flex ">
           {/* ::Promo Infos */}
-          <div className="relative z-10 py-10 sm:py-20 md:py-40 px-4 sm:pl-10 w-full md:w-1/2 flex flex-col items-start space-y-5">
+          <div className=" py-10 sm:py-20 md:py-40 px-4 sm:pl-10 w-full md:w-1/2 flex flex-col items-start space-y-5">
             {/* :::title */}
             <h2 className="text-3xl sm:text-4xl lg:text-5xl  font-extrabold tracking-wide">
               <span className="block">CCTV Systems </span>
@@ -42,17 +42,19 @@ const Cctv = () => {
             </h2>
             {/* :::text */}
             <p className="max-w-lg text-sm sm:text-base lg:text-lg md:text-gray-500 font-medium">
-              At Surrey Electrical and Car Charging LTD 
+              At Surrey Electrical and Car Charging LTD
               <br />
-              we understand how important people's homes are to them and their families. 
+              we understand how important people's homes are to them and their families.
               <br />
               So offering the service of intruder alarms and cctv we can help people feel safe in their homes whilst there and away.
             </p>
           </div>
           {/* ::Illustration */}
-          <div className="absolute md:relative inset-0 w-full md:w-1/2">
-            <img src="/cctv1.jpg" alt="" className="absolute inset-0 w-full h-full object-cover" />
-            <span className="absolute inset-0 block md:hidden w-full h-full bg-white opacity-70" />
+          <div style={{
+            filter: "hue-rotate(90deg)",
+
+          }} className=" inset-0 w-full md:w-1/2">
+            <img src="/cctv2.webp" alt="" />
           </div>
         </div>
 
