@@ -50,6 +50,7 @@
     "@astrojs/react": "^2.0.2",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
+    "astro-heroicons": "^0.3.0",
     "daisyui": "^2.50.0",
     "flowbite": "^1.6.3",
     "react": "^18.0.0",

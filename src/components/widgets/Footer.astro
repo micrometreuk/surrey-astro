@@ -2,7 +2,9 @@
 import { Icon } from 'astro-icon';
 import { SITE } from '~/config.mjs';
 import { getHomePermalink } from '~/utils/permalinks';
-
+import Phone from 'astro-heroicons/solid/Phone.astro';
+import Phone2 from 'astro-heroicons/mini/Phone.astro';
+import Phone3 from 'astro-heroicons/outline/Phone.astro';
 interface Link {
   text?: string;
   href?: string;
@@ -98,13 +100,12 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
         <Fragment set:html={footNote} />
       </div>
       <div class="fixed bottom-20 right-0">
-        <div class="mt-0 max-w-xs mx-auto">
-          <h3
-            class="text-xl md:text-xl font-bold leading-tighter tracking-tighter font-heading text-gray-800 sm:text-base dark:text-white"
-          >
-            <a class="btn bg-green-400 dark:bg-gray-800 w-full sm:w-auto" href="tel:01932 886593"> How can we help ?</a>
-          </h3>
-        </div>
+        <h3 class="text-gray-800 sm:text-base dark:text-white">
+          <a class="btn bg-green-400 dark:bg-gray-800" href="tel:01932 886593">
+            <Phone3 />
+            How can we help
+          </a>
+        </h3>
       </div>
     </div>
   </div>
